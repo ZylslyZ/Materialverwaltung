@@ -1,21 +1,32 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="de">
+  <head>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
 <body>
 	<header>
-	Verwaltung von Lehr- und Lernmaterial
+	Verwalten und Erstellen von Lehr- und Lernmaterial
 	</header>
-	<aside>
-		<ul>
-		  <li><a href="./index.html">Startseite</a></li>
-		  <li><a href="./anmeldung.html">Anmeldung</a></li>
-		  <li><a href="./login.html">Login</a></li>
-		</ul>
-	</aside>
-	<h1>Login</h1>
-	<p>I'm hosted with GitHub Pages.</p>
+	
+	<main>
+		<article>
+			<h1>Login</h1>
+			<form action="./eingeloggt.html" method="post">
+				<label for="name">Benutzername: </br></label>
+				<input name="name" id="name" type="text"></br>
+				<label for="passwort">Passwort: </br></label>
+				<input passwort="passwort" id="passwort" type="password"></br>
+				<a href="./eingeloggt.html"><button>Weiter</button></a>
+				<!-- <button type="submit">Weiter</button> -->
+			</form>
+
+		</article>
+	</main>
 	<footer>
-     <a href="kontakt.html">Kontakt</a>
-     <p>© 2023 by Felix Friehe</p>
-  </footer>
+		<a href="kontakt.html">Kontakt</a>
+		<p>© 2023 by Felix Friehe</p>
+	</footer>
 </body>
 </html>
+
