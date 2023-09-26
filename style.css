@@ -2,9 +2,9 @@ body {
     display: grid;
     grid-template-columns: auto auto;
 	grid-template-areas: 
-            "header header header profile"
-            "nav main main main"
-            "footer footer footer footer";
+            "header header header"
+            "nav main main"
+            "footer footer footer";
     grid-template-rows: auto 1fr 80px;
 }
 
@@ -33,6 +33,7 @@ nav {
 profile {
 	background-color: #eee;
 	grid-area: profile;
+	text-align: center;
 }
 
 main {
